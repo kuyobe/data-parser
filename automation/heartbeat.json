@@ -1,0 +1,27 @@
+{
+  "serviceName": "data-parser",
+  "status": "running",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "version": "1.2.3",
+  "uptimeSeconds": 3600,
+  "memoryUsageMB": 256,
+  "cpuUtilizationPercent": 10.5,
+  "activeTasks": 5,
+  "lastSuccessfulParse": "2024-10-27T10:25:00Z",
+  "errorsLastMinute": 0,
+  "warningsLastMinute": 2,
+  "dependencies": {
+    "database": {
+      "status": "connected",
+      "responseTimeMs": 15
+    },
+    "messageQueue": {
+      "status": "healthy",
+      "messagesPending": 10
+    }
+  },
+  "customMetrics": {
+    "processedFiles": 1000,
+    "invalidRecords": 10
+  }
+}
